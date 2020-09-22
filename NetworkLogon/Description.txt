@@ -1,0 +1,6 @@
+This example shows how to send a username and password to a network 
+login box and will not work for the power on logon. Some networks 
+disable the save username and password function making you type it in 
+every time after a timeout period. I'm too lazy for that. Could be adapted 
+to many other uses. I fixed a bug where a static variable needed to be
+cleared or sub would fail after first try.
